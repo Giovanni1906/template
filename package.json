@@ -1,7 +1,13 @@
 {
   "name": "template-web-site",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Base template to buid manageable web sites",
+  "license": "MIT",
+  "author": {
+    "name": "Jorge Velásquez",
+    "email": "jeff-1906@outlook.com",
+    "url": "https://www.digitalAds.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +15,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.5",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@midudev/tailwind-animations": "^0.0.7",
+    "next": "14.1.4",
+    "next-optimized-images": "^2.6.2",
+    "next-pwa": "^5.6.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "css-loader": "^6.10.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5",
+    "webpack": "^5.91.0"
   }
 }

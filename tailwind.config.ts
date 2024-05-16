@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import animations from '@midudev/tailwind-animations';
 
 const config: Config = {
   content: [
@@ -13,8 +14,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      // business colors palette
+      colors: {
+        myPrimaryColor: "#ecb939",
+        mySecundaryColor: "#372e29",
+        mySelectedColor: "#f0c75e",
+        myBlurColor: "#726255",
+        myBackgroundColor: "#000000",
+      },
+      screens: {
+        touch: {raw: 'only screen and (pointer: coarse)'}, // use only for tactiles
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    animations,
+  ],
 };
 export default config;

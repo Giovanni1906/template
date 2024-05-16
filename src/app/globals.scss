@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,6 +17,7 @@
 }
 
 body {
+  padding-top: 30px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
